@@ -1,0 +1,91 @@
+.outer-box{
+    width: 500px;
+    margin: 6% auto;
+}
+body{
+    background-color: rgb(182, 159, 193);
+}
+.box{
+    background: #8823c2;
+    color: white;
+    width: 100%;
+    height: 170px;
+    border-radius: 5px 5px 0 0 ;
+}
+.text-end{
+    text-align: center;
+}
+h2{
+    margin: 0;
+    padding: 10px 10px 10px 0px;
+}
+.text-addTodo{
+    text-align: center;
+    margin-top: 10px;
+}
+input[type=text]{
+    padding: 7px;
+    width: 250px;
+    border-radius:5px ;
+    border: 0px;
+}
+
+.btn-addTodo{
+  color: white;
+  background: rgb(44, 147, 188);
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  margin-left: 15px;
+  cursor: pointer; 
+}
+input[type=text]:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+.todo-list{
+    max-height: 210px;
+    overflow-y:auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    background: lightgrey;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 15px 15px 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white ;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+.pointer{
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through;
+    color: green;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: dodgerblue;
+}
+.green{
+    color:yellowgreen
+}
