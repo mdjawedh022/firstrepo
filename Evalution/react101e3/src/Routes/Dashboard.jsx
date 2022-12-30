@@ -41,7 +41,7 @@ function Dashboard() {
       setOrderBy("asc");
     }
   };
-
+   console.log(products)
   return (
     <div>
       <h3>Dashboard</h3>

@@ -45,7 +45,7 @@ export const Slider1 = () => {
     { width: 200, itemsToShow: 1, itemsToScroll: 1 },
     { width: 400, itemsToShow: 2, itemsToScroll: 2 },
     { width: 500, itemsToShow: 3, itemsToScroll: 3 },
-    { width: 768, itemsToShow: 3, itemsToScroll: 3 },
+    { width: 768, itemsToShow: 4, itemsToScroll: 4 },
   ];
 
   return (

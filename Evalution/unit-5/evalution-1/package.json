@@ -1,0 +1,16 @@
+{
+  "name": "b20.c1-main",
+  "version": "1.0.0",
+  "description": "1. [Go to Github URL: https://github.com/riteshf/b20.c1.git](https://github.com/riteshf/b20.c1.git) 2. Download the zip. 3. Unzip .",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
