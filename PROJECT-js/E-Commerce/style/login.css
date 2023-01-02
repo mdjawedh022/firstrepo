@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(248, 246, 246);
+}
+/* Navbar related css */
+#links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+  box-shadow: 2px 2px 5px 5px rgb(235, 235, 235);
+}
+#links > div {
+  display: flex;
+  list-style: none;
+}
+#links a {
+  text-decoration: none;
+  color: teal;
+  font-size: 30px;
+}
+#submit {
+    width: 70%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+  }
+  input {
+    display: block;
+    margin: 0px 0px;
+    font-size: 20px;
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+  form {
+    width: 400px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 3% auto;
+    padding: 3%;
+    background: white;
+  }
+  h3{
+      margin-top: 30px;
+      font-size: large;
+      font-size: 30px;
+  }
+  #sub{
+    width: 67%;
+    border-radius: 10px;
+  }

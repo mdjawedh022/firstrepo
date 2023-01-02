@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+             * {
+  box-sizing: border-box;}
+       
+form {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+ border-radius: 15px;
+}
+
+label {
+  font-size: 20px;
+}
+h1{
+    margin-top: -3px ;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #2b879e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #398eb6;
+}
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h1>Sign In</h1>
+      
+      <label for="">Enter Email </label><br />
+     <input id="email" type="email" placeholder="Enter Email"><br />
+     <label for="">Enter Password </label><br />
+     <input id="password" type="password" placeholder="Enter password"><br />
+     
+      <input type="submit"  placeholder="SIGN UP"/>
+     
+    </form>
+</body>
+<script>
+    let form = document.querySelector("form");
+    let signupLS=JSON.parse(localStorage.getItem("signup")) || [];
+    form.addEventListener("submit",function(event){
+        event.preventDefault();
+        if(signupLS.length===0){
+            alert("Invlid user ");
+            return;
+        }
+        let obj ={
+            email:form.email.value,
+            password:form.password.value,
+        }
+        let isSignedin=false;
+    signupLs.forEach(function(ele){
+        if(elem.email===obj.email && elem.password===obj.password){
+            isSignedin=true;
+
+            localStorage.setItem("signin", JSON.stringify(ele))
+            alert("sign up sucessful");
+            window.location.href="index.html"
+        }
+    })
+      if(isSignedin===false){
+        alert("user Dosen't Exist")
+      }
+    })
+</script>
+</html>

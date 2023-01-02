@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <style>
+        form {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+ border-radius: 15px;
+}
+
+label {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+ h1{
+    text-align: center;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #2b619e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3973b6;
+}
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h1>Sign Up</h1>
+      <label for="">Full Name</label><br />
+      <input id="name" type="text" placeholder="Enter Your Full Name" /><br />
+      <label for="">Enter Email </label><br />
+     <input id="email" type="email" placeholder="Enter Email"><br />
+     <label for="">Enter Password </label><br />
+     <input id="password" type="password" placeholder="Enter password"><br />
+    
+      <input type="submit"  value="SIGN UP"/>
+      
+    </form>
+</body>
+<script>
+   let form = document.querySelector("form");
+   let signupLS=JSON.parse(localStorage.getItem("signUp")) || [];
+
+   form.addEventListener("submit",function(event){
+    event.preventDefault();
+    let obj={
+        name:form.name.value,
+        email:form.email.value,
+        password:form.password.value 
+    }
+    if(obj.name== "" || obj.email== ""||obj.password==""){
+        alert(" Fill Proper")
+        return
+    }
+
+    
+    console.log(obj);
+    signupLS.push(obj);
+    localStorage.setItem("signUp", JSON.stringify(signupLS))
+   })
+</script>
+</html>

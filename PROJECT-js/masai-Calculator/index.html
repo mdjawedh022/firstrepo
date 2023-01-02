@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <style>
+        h1{
+             color:teal;     
+            text-align: center;
+            font-size: 45px;
+        }
+       #container{
+        width: 25%;
+        height: 430px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          margin:auto;
+          margin-top:60px;
+          padding-top:10px;
+          border-radius: 30px;
+          padding-bottom: -2px;
+       }
+       #display{
+            width: 80%;
+            height: 50px;
+            margin:auto;
+            margin-top: 35px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius:30px;
+
+       }
+       #keyboard{
+        width: 270px;
+            height: 280px;
+           
+            margin:auto;
+            margin-top: 17px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4, 50px);
+            gap: 20px;
+       }
+      
+       #keyboard>div{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-size: 22px;
+        font-weight: bold;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+       }
+  #rd{
+    background-color: red;
+    color:white
+  }
+.blk{
+    background-color: black;
+    color: white;
+}
+#display{
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+       
+    </style>
+    </head>
+    <body>
+        <h1>Masai Calculator</h1>
+       <div id="container">
+            <div id="display"></div>
+            <div id="keyboard">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div class="blk">+</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div class="blk">-</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div class="blk">*</div>
+                <div id="rd">C</div>
+                <div>0</div>
+                <div class="blk">=</div>
+                <div class="blk">/</div>
+            </div>
+       </div>
+    </body>
+    </html>
+    <script>
+        let keys = document.querySelectorAll("#keyboard>div")
+            for(let i=0; i<keys.length;i++){
+           keys[i].addEventListener("click",myCal)
+            }
+            let bag ="";
+
+
+            function myCal(){
+                let targetNumber = event.target.innerText
+                if(targetNumber=="C"){
+                    //DISPLAY CLEAR
+                    document.querySelector("#display").innerText= ""    
+                    bag=""  
+                 
+                }
+                 else if(targetNumber== "=") {
+                    //do mathimatical operation
+                    console.log(eval(bag));
+                    let res= eval(bag)
+                    
+                    document.querySelector("#display").innerText= res
+                  
+                    }else{   
+                bag=bag+targetNumber
+                document.querySelector("#display").innerText= bag
+            }
+        
+
+        }
+
+    </script>
