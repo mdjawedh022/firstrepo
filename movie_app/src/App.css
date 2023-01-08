@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.movie-app{
+  width: 85%;
+  margin:20px  auto;
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:25px
+}
+img{
+  width:100%;
+  border-radius: 20px 20px 0 0;
+}
+.app_movie{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  
+}
+button{
+  padding: 7px 15px;
+}

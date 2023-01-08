@@ -1,0 +1,27 @@
+
+.mentor-section{
+    
+    width: 80%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+}
+.mentor-section-div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:15px;
+    text-align: center;
+}
+.img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+.img1{
+    width: 40%;
+    margin:5px auto 10px auto;
+
+}
+.h1-mentor{
+    font-size: 25px;
+    font-weight: 600;
+}

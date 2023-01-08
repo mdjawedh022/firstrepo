@@ -18,7 +18,7 @@ function Graph() {
   return (
     <div style={{width:"80%",margin:"auto"}}>
         <h1 style={{textAlign:"center",fontSize:"45px",marginBottom:"15px"}}>My Github Calender</h1>
-        <div class="calendar">
+        <div className="calendar">
       {/* <!-- Loading stuff --> */}
       {/* Loading the data just for you. */}
     </div>

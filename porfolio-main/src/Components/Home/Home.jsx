@@ -83,7 +83,7 @@ function Home() {
             position={'relative'}
             // height={'480px'}
             // rounded={'2xl'}
-            height={{base:"2xl",sm:"3xl",lg:"530px"}}
+            height={{base:"280px",sm:"3xl",lg:"530px"}}
             borderRadius={"50%"}
             boxShadow={'2xl'}
             width={{base:"",sm:"",lg:"65%"}}

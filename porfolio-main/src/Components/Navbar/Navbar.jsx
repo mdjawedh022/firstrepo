@@ -1,4 +1,4 @@
-import React,{ReactNode} from 'react'
+import React from 'react'
 import {
     Box,
     Flex,
@@ -31,7 +31,7 @@ import {
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
       }}
-      href={'#'}>
+      href={'/'}>
       {children}
     </Link>
   );

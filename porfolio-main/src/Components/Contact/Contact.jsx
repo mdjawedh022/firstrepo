@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import git from "../image/git.png";
+// import git from "../image/git.png";
 
 export const Contact = () => {
   const click = (url) => {
@@ -28,7 +28,7 @@ export const Contact = () => {
           <i className="fa-brands fa-linkedin"></i>{" "}
         </div>
         <div onClick={() => click("https://github.com/mdjawedh022")}>
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </div>
         {/* <div onClick={() => click("https://instagram.com/i_am_mj4?igshid=YmMyMTA2M2Y=")}>
         <i class="fa-brands fa-instagram"></i>
