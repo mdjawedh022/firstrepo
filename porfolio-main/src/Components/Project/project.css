@@ -1,0 +1,154 @@
+.pDiv{
+    text-align: center;
+    margin: auto 7%;
+}
+#heading{
+    font-size: 45px;
+    /* color: #272341; */
+}
+
+.j{
+    font-size: 25px;
+}
+.child{
+    /* width: 30%; */
+    margin: 10px;
+    box-shadow: rgba(7, 150, 50, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.child h1{
+    margin: 0px;
+}
+.child img{
+    width: 100%;
+}
+
+.child:hover{
+    /* height: 105%;
+    width: 105%; */
+    transform: scale(1.03);
+}
+.repobtn{
+    display: flex;
+    justify-content: space-around;
+}
+.repobtn p{
+    background-color: rgb(78, 78, 255);
+    
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+.repobtn p:hover{
+    background-color:rgb(34, 34, 247);
+}
+.tech{
+    display: flex;
+    justify-content: space-around;
+}
+.tech1{
+    border-bottom: solid 1px #272341;
+    border-top: solid 1px #272341;
+    margin: 10px;
+}
+.tech p{
+    font-size: 15px;
+    /* margin: 10px; */
+    background-color: #272341;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.tech1 h3{
+    font-size: 25px;
+    margin: 5px;
+}
+.disc{
+    /* width: 90%; */
+    text-align: justify;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+@media (max-width: 875px){
+    .pDiv{
+        margin: auto 5%;
+    }
+    .child{
+        /* width: 30%; */
+        margin: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .child h1{
+        font-size: 28px;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    .disc{
+        font-size: 12px;
+    }
+    .repobtn p{
+        padding: 3px 8px;
+        border-radius: 10px;
+        font-size: 12px;
+
+    }
+    .tech1{
+        margin: 8px;
+    }
+    .tech p{
+        font-size: 12px;
+        /* margin: 10px; */
+        
+        padding: 5px 10px;
+        border-radius: 10px;
+    
+    }
+    .tech1 h3{
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+@media (max-width: 550px){
+    .pDiv{
+        margin: auto 1%;
+    }
+    #heading{
+        font-size: 30px;
+        margin: 0px;
+    }
+    .disc{
+        font-size: 15px;
+    }
+    .repobtn p{
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .tech1{
+        margin: 8px;
+        font-size: 10px;
+    }
+    .tech p{
+        font-size: 7px;
+        padding: 5px 10px;
+        border-radius: 10px;
+    
+    }
+    .tech1 h3{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .disc{
+        margin-top: 1rem;
+    margin-bottom: 1rem;
+        font-size: 13px;
+    }
+}

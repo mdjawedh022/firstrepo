@@ -1,0 +1,38 @@
+{
+  "movies": [
+    {
+      "Title": "Titanic",
+      "id": 1,
+      "rating": 5
+    },
+    {
+      "Title": "Avengers",
+      "id": 2,
+      "rating": 5
+    },
+    {
+      "Title": "End Game",
+      "id": 3,
+      "rating": 5
+    },
+    {
+      "Title": "Wakanda",
+      "id": 4,
+      "rating": 5
+    }
+  ],
+  "watchlist": [
+    {
+      "Title": "The Wolf of Wall Street",
+      "Released": "25 Dec 2013",
+      "Images": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDIwMDIxNzk3Ml5BMl5BanBnXkFtZTgwMTg0MzQ4MDE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "id": 2
+    },
+    {
+      "Title": "The Wolf of Wall Street",
+      "Released": "25 Dec 2013",
+      "Images": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDIwMDIxNzk3Ml5BMl5BanBnXkFtZTgwMTg0MzQ4MDE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "id": 3
+    }
+  ]
+}

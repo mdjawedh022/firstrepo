@@ -1,14 +1,13 @@
 import React from 'react'
+import "./navbar.css"
 import {
     Box,
     Flex,
-    Avatar,
     HStack,
     Link,
     IconButton,
     Button,
     Menu,
-    Image,
     MenuList,
     MenuItem,
     MenuDivider,
@@ -31,16 +30,16 @@ import {
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
       }}
-      href={'/'}>
+    >
       {children}
     </Link>
   );
 
-function Navbar() {
+function Navbar({handleabout,handleprojects,handlecontacts,handleprofile,handleskills}) {
   const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <div  >
+    <div className='navbar-section' >
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} position={"sticky"}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
@@ -58,9 +57,15 @@ function Navbar() {
               as={'nav'}
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
-              {Links.map((link) => (
+              {/* {Links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
-              ))}
+              ))} */}
+              <NavLink onClick={handleprofile}>Home</NavLink>
+              <NavLink onClick={handleabout}>About</NavLink>
+              <NavLink onClick={handleskills}>Skill</NavLink>
+              <NavLink>Graph</NavLink>
+              <NavLink onClick={handleprojects}>Projects</NavLink>
+              <NavLink onClick={handlecontacts}>Contact</NavLink>
             </HStack>
               <Button onClick={toggleColorMode}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}

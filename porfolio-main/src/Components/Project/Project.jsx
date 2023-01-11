@@ -30,11 +30,12 @@ function Project() {
 
       <Grid
         gap={"30px"}
-        grid-template-columns={{
-          base: "repeat(1,1fr)",
-          sm: "repeat(2,1fr)",
-          lg: "repeat(3,1fr)",
-        }}
+        // grid-template-columns={{
+        //   base: "repeat(1,1fr)",
+        //   sm: "repeat(2,1fr)",
+        //   lg: "repeat(3,1fr)",
+        // }}
+        gridAutoColumns={'repeat(3,1fr)'}
       >
         <GridItem>
           <Card maxW="sm">

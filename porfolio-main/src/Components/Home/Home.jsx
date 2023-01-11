@@ -13,6 +13,9 @@ import {
 
 import profilepic from '../image/profilepic.jpg'
 function Home() {
+  const goto = (url) => {
+    window.open(url, "_blank");
+  };
   return (
     <div>
       <Container maxW={'7xl'}>
@@ -59,7 +62,13 @@ function Home() {
               px={6}
               colorScheme={'blue'}
               bg={'blue.400'}
-              _hover={{ bg: 'blue.500' }}>
+              _hover={{ bg: 'blue.500' }}
+              onClick={() =>
+                goto(
+                  "https://drive.google.com/file/d/1m5GgisAbX7FWCvIzTYzc-8tLL-hUtOYO/view?usp=sharing"
+                )
+              }
+              >
               Resume
             </Button>
             <Button
@@ -67,6 +76,9 @@ function Home() {
               size={'lg'}
               fontWeight={'normal'}
               px={6}
+              onClick={() =>
+                goto("https://www.linkedin.com/in/md-jawed-hussain-3404b3248/")
+              }
               >
              Linkend
             </Button>
@@ -92,7 +104,6 @@ function Home() {
               aria-label={'Play Button'}
               variant={'ghost'}
               _hover={{ bg: 'transparent', }}
-            
               size={'lg'}
               color={'white'}
               position={'absolute'}
@@ -106,7 +117,8 @@ function Home() {
               align={'center'}
               w={'100%'}
               h={'100%'}
-              
+              _hover={{transition: "1000ms",
+              transform: "scale(1.10)"}}
               src={profilepic}
             />
           </Box>
