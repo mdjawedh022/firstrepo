@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typewriter } from 'react-simple-typewriter'
 import {
   Container,
   Stack,
@@ -50,7 +51,14 @@ function Home() {
             </Text>
           </Heading>
           <Text color={'gray.500'}fontWeight={'550'} fontSize={25}>
-          I am Full-stack Web Developer
+            I'm 
+          <Typewriter 
+                  words={[" Full Stack Web Developer", " MERN Stack"]}
+                  loop
+                  typeSpeed={100}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}

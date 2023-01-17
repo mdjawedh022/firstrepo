@@ -4,10 +4,7 @@ import "aos/dist/aos.css"
 import Navbar from '../Navbar/Navbar';
 import Home from '../Home/Home';
 import About from '../About/About';
-// import Skill from '../Skill/Skill';
 import Graph from '../Graph/Graph';
-// import Project from '../Project/Project';
-// import Contact from '../Contact/Contact';
 import { Skill } from '../Skill/Skill';
 import { Contact } from '../Contact/Contact';
 import Project2 from '../Project/Project2';
@@ -24,8 +21,6 @@ function Mainpages() {
         Aos.init({duration: 2000,});
       },[])
       const handleprofile = () => {
-        // console.log(profile.current.offsetTop);
-        console.log("hello")
         window.scrollTo({
           top: 0,
           behavior: "smooth",

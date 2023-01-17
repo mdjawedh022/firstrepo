@@ -22,12 +22,12 @@ function About() {
             fontSize={{ base: "10px", sm: "20", lg: "25" }}
             fontWeight={{ base: "400", sm: "2xl", lg: "600" }}
           >
-            I am a creative, observing, analytical, and aspiring FULL-STACK WEB
-            DEVELOPER from MASAI SCHOOL specializing in MERN STACK. Having the
+            I am a creative, observing, analytical, and aspiring Full-Stack Web
+            Developer from MASAI SCHOOL specializing in MERN STACK. Having the
             technical skills in HTML, CSS, javascript, react js, node js, and
             mogo database, I have cloned several websites during my course
             duration here at Masai school.and computer science drag me to become
-            a full-stack web developer. I have cloned Tanshiq and J.Crew. Here I
+            a full-stack web developer. I have cloned Tanshiq and J.Cre w. Here I
             was also groomed with soft skills.
           </Text>
         </CardBody>
