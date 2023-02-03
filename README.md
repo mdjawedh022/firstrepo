@@ -44,8 +44,10 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 <img src="https://github-readme-stats.vercel.app/api?username=mdjawedh022&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515"/>
 
   <a href="https://github.com/mdjawedh022/github-readme-stats"><img alt="Jawedh022" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdjawedh022&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+   <div> <img src='https://github-readme-streak-stats.herokuapp.com?user=mdjawedh022&theme=dark' alt='jawed'/></div>
   <br/>
-  <div> <img src='https://github-readme-streak-stats.herokuapp.com/demo/preview.php?user=mdjawedh022' alt='jawed'/></div>
+  
+ 
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 
 
