@@ -48,7 +48,7 @@ Aspiring full-stack web development professional, adept at user-specific solutio
   <br/>
   
  
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+<!--   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level. -->
 
 
 <br/>
@@ -63,4 +63,4 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 <br/>
 <br/>
 
-This paste expires in <30 min. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this
+
