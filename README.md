@@ -11,7 +11,7 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 - 🌱 I’m currently learning MARN Stack
 - 👯 I’m looking to collaborate on user centric web application
 - 💬 Ask me about  Coding | Data structure and algorithm
-- 📫 How to reach me: <a href="https://www.linkedin.com/in/md-jawed-hussain-3404b3248/">Linkedin</a> | <a href="mdjawedh22@gmail.com">Email</a>
+- 📫 How to reach me: <a href="https://www.linkedin.com/in/md-jawed-hussain-3404b3248/">Linkedin</a> | <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jawedhilmand022@gmail.com">Email</a>
 ## Skills and Frameworks
  <div style="display flex">
      <a href="https://www.w3schools.com/html/"> <img  src="https://camo.githubusercontent.com/d63d473e728e20a286d22bb2226a7bf45a2b9ac6c72c59c0e61e9730bfe4168c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465" alt=""></a>
@@ -43,7 +43,7 @@ Aspiring full-stack web development professional, adept at user-specific solutio
  ## My Github status:
 <img src="https://github-readme-stats.vercel.app/api?username=mdjawedh022&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515"/>
 
-  <a href="https://github.com/mdjawedh022/github-readme-stats"><img alt="Jawedh022" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GUDDU434&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+  <a href="https://github.com/mdjawedh022/github-readme-stats"><img alt="Jawedh022" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdjawedh022&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 
