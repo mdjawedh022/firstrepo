@@ -11,7 +11,7 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 - 🌱 I’m currently learning MARN Stack
 - 👯 I’m looking to collaborate on user centric web application
 - 💬 Ask me about  Coding | Data structure and algorithm
-- 📫 How to reach me: <a href="https://www.linkedin.com/in/md-jawed-hussain-3404b3248/">Linkedin</a> | <a href="mdjawedh22@gmail.com">Email</a>
+- 📫 How to reach me: <a href="https://www.linkedin.com/in/md-jawed-hussain-3404b3248/">Linkedin</a> | <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jawedhilmand022@gmail.com">Email</a>
 ## Skills and Frameworks
  <div style="display flex">
      <a href="https://www.w3schools.com/html/"> <img  src="https://camo.githubusercontent.com/d63d473e728e20a286d22bb2226a7bf45a2b9ac6c72c59c0e61e9730bfe4168c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465" alt=""></a>
@@ -36,19 +36,26 @@ Aspiring full-stack web development professional, adept at user-specific solutio
  ## Contact Me:
  <div style="display flex">
             <a href="https://www.linkedin.com/in/md-jawed-hussain-3404b3248/"><img src="https://camo.githubusercontent.com/a80d00f23720d0bc9f55481cfcd77ab79e141606829cf16ec43f8cacc7741e46/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d3030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465" alt=""></a>
-             <a href=""><img src="https://camo.githubusercontent.com/571384769c09e0c66b45e39b5be70f68f552db3e2b2311bc2064f0d4a9f5983b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d4431343833363f7374796c653d666f722d7468652d6261646765266c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465" alt=""></a>
+             <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jawedhilmand022@gmail.com"><img src="https://camo.githubusercontent.com/571384769c09e0c66b45e39b5be70f68f552db3e2b2311bc2064f0d4a9f5983b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d4431343833363f7374796c653d666f722d7468652d6261646765266c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465" alt=""></a>
              <a href=""><img src="" alt=""></a>
 </div>
  
  ## My Github status:
 <img src="https://github-readme-stats.vercel.app/api?username=mdjawedh022&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515"/>
 
-  <a href="https://github.com/mdjawedh022/github-readme-stats"><img alt="Jawedh022" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GUDDU434&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+  <a href="https://github.com/mdjawedh022/github-readme-stats"><img alt="Jawedh022" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdjawedh022&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+   <div> <img src='https://github-readme-streak-stats.herokuapp.com?user=mdjawedh022&theme=dark' alt='jawed'/></div>
   <br/>
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+  
+ 
+<!--   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level. -->
 
 
 <br/>
+
+
+
+
 <br/>
 
 <a href="https://github.com/mdjawedh022/github-readme-activity-graph"><img alt="Md jawed Hussain's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=mdjawedh022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
@@ -56,4 +63,4 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 <br/>
 <br/>
 
-This paste expires in <30 min. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this
+
