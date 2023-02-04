@@ -36,7 +36,7 @@ function CreateTod() {
       todos[i]["done"] = true;
       localStorage.setItem("todos", JSON.stringify(todos));
       setTodoArr(todos);
-      swal("Good job!","Todo completed","success")
+      swal("Good job!", "Todo completed", "success");
     }
   };
 
@@ -46,8 +46,8 @@ function CreateTod() {
       text: "Once deleted, you will not be able to  recover this file!",
       icon: "warning",
       buttons: true,
-      dangerMode: true
-    }).then(res => {
+      dangerMode: true,
+    }).then((res) => {
       if (res) {
         todos.splice(i, 1);
         localStorage.setItem("todos", JSON.stringify(todos));

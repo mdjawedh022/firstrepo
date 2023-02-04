@@ -1,8 +1,7 @@
 import React from "react";
 
 function TodoList(props) {
-  const{completeTodo, deleteTodo}=props
- 
+  const { completeTodo, deleteTodo } = props;
 
   let todoArr =
     props.todoArr.length > 0
@@ -26,7 +25,11 @@ function TodoList(props) {
                       el["done"] ? "green" : "blue"
                     }`}
                   />
-                  <i title="Delete" onClick={()=>deleteTodo(i)} className="fas fa-trash-alt pointer" />
+                  <i
+                    title="Delete"
+                    onClick={() => deleteTodo(i)}
+                    className="fas fa-trash-alt pointer"
+                  />
                 </div>
               </li>
             ))

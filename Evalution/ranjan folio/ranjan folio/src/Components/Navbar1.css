@@ -1,0 +1,84 @@
+.nav{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:100%;
+    position: fixed;
+    top:0;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ranjan-logo{
+    width: 30%;
+
+}
+.nav1{
+    margin-left: 20px;
+}
+.nav2{
+    font-size: 20px;
+    display: flex;
+    gap:30px;
+    margin-right: 40px;
+    margin: 15px 10px 15px 10px;
+}
+/* .nav2 a{
+    gap:20px;
+   
+} */
+.nav2 button{
+    background-color: rgb(241, 237, 237);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 550;
+    font-family:'Times New Roman', Times, serif
+    
+
+}
+.nav2 button:hover{
+    background-color: rgb(224, 216, 216);
+}
+.nav3{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .nav{
+        width: 100%;
+    }
+    .ranjan-logo{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .nav2{
+        font-size: 15px;
+        gap: 10px;
+        margin: 15px 0;
+    }
+}
+@media screen and (max-width: 380px){
+    .nav2{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+    }
+    .ranjan-logo{
+        width: 25%;
+    }
+    .nav3{
+        display: inline-block;
+        margin-right: 29px;
+
+    }
+}
+@media screen and (max-width: 480px){
+    .nav2{
+        display: none;
+    }
+    .nav3{
+        display: inline-block;
+        margin-right: 40px;
+    }
+}

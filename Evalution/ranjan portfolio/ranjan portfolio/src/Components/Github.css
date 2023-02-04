@@ -1,0 +1,19 @@
+
+
+.github1>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.github2{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    align-items: center;
+    margin-top: 50px;
+}
+.github2 img{
+    margin: auto;
+    width: 70%;
+}

@@ -1,0 +1,66 @@
+.skills{
+    display: grid;
+    margin-top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(42, 41, 40);
+    /* background-image: linear-gradient(300deg,#8f34c0,#5968f2,#541ec9,#8f34c0); */
+    padding: 30px;
+}
+.skills2{
+    color: white;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.skills2>p{
+    margin-top: 20px;
+}
+.language{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.language>div{
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.language>div:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.language>div>img{
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 100px;
+    
+}
+.language>div>p{
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .language{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 480px){
+    .language{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .language{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

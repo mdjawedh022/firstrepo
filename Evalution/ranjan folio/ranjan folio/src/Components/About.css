@@ -1,0 +1,27 @@
+.Middle{
+    display: grid;
+    gap: 20px;
+    width: 70%;
+    align-items: left;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Middle>p:nth-child(1){
+    margin-top: 150px;
+    font-size: 50px;
+}
+.Middle>p:nth-child(2){
+    display: block;
+    font-size: 25px;
+    text-align: left;
+    /* text-align: right; */
+
+}
+@media screen and (max-width: 480px){
+    .Middle>p:nth-child(1){
+        font-size: 40px;
+    }
+    .Middle>p:nth-child(2){
+        font-size: 18px;
+    }
+}
