@@ -1,10 +1,10 @@
 
 
-.github1>p{
+/* .github1>p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 20px;
     font-size: 50px;
-}
+} */
 .github2{
     display: grid;
     width: 70%;
@@ -13,7 +13,7 @@
     align-items: center;
     margin-top: 50px;
 }
-.github2 img{
+.gitub-photo{
     margin: auto;
     width: 70%;
 }

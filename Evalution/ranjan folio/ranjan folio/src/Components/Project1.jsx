@@ -9,9 +9,9 @@ import images from "./Projectlogo/healthcart.png";
 const Project1 = () => {
   return (
     <>
-      <Box w={{ base: "100%", md: "100%", lg: "100%" }} mt={{base:'20%',md:'25%',lg:'40%'}}>
-        <Box>
-          <Text fontSize={{base:'35px',md:'35px',lg:'40px'}} fontWeight={'500'}
+      <Box w={{ base: "100%", md: "100%", lg: "100%" }} mt={{base:'10%',md:'10%',lg:'7%'}}>
+        <Box mb={'30px'}>
+          <Text fontSize={{base:'35px',md:'45px',lg:'50px'}} fontWeight={'500'}
           fontFamily={'Cambria, Cochin, Georgia, Times, Times New Roman, serif'}
           >Latest Project</Text>
         </Box>

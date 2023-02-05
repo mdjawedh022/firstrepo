@@ -14,7 +14,7 @@ const AllPages = () => {
       <div >
         <Navbar1 />
       </div>
-      <div>
+      <div style={{marginTop:'40px'}}>
         <Home />
       </div>
       <div>

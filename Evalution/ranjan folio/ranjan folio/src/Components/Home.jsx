@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import resume from "./Ranjan_Kumar_Resume.pdf";
-import Link from 'react-router-dom'
+// import Link from 'react-router-dom'
 
 const Home = () => {
 

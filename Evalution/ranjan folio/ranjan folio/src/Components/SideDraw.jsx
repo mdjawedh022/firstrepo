@@ -36,7 +36,7 @@ function SideDrawer() {
 
               src="https://i.pinimg.com/474x/4d/35/c1/4d35c148dc6c150ee912b90f4c25e953.jpg"
               alt="ranjan"
-              style={{width:"20%",marginBottom:'18px'}}
+              style={{width:"20%",marginBottom:'0px'}}
             />
             <hr />
           </DrawerHeader>
