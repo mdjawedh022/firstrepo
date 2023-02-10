@@ -57,9 +57,6 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 
 
 <br/>
-
-<a href="https://github.com/mdjawedh022/github-readme-activity-graph"><img alt="Md jawed Hussain's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=mdjawedh022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
-
 <br/>
 <p><img alt="jawed Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=mdjawedh022&theme=github&hide_border=true" /></p>
 <br/>
