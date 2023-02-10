@@ -16,6 +16,7 @@ const Navbar = () => {
      padding={'5px 30px'}
      position={'fixed'}
      top={'0'}
+    zIndex={'3'}
      justifyContent={'space-between'}
      alignItems={'center'}
      boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}

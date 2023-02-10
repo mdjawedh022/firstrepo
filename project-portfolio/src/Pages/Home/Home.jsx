@@ -52,7 +52,7 @@ const Home = () => {
               delaySpeed={1000}
             />
           </Text>
-          <Button m={"10px"}>Resume</Button>
+          <Button color={useColorModeValue("","black")} bg={'white'}m={"10px"}>Resume</Button>
         </Box>
         <Box w={{ base: "100%", md: "100%", lg: "100%" }}>
           <Image
