@@ -1,5 +1,5 @@
 
-<a href="#"><img width="100%" height="auto" align="center" src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif" height="400px"/></a>
+<a href="#"><img width="100%" height="auto" align="center" src="https://www.digitalsolutionservices.com/img/services/website1.gif" height="400px"/></a>
 <h1 align="center" >Hi <img height="30px" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" >, My Name is Md Jawed Hussain</h1>
 <h3 align="center">I'm a FULL STACK WEB DEVELOPER</h3>
 
@@ -57,10 +57,8 @@ Aspiring full-stack web development professional, adept at user-specific solutio
 
 
 <br/>
-
-<a href="https://github.com/mdjawedh022/github-readme-activity-graph"><img alt="Md jawed Hussain's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=mdjawedh022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
-
 <br/>
+<p><img alt="jawed Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=mdjawedh022&theme=github&hide_border=true" /></p>
 <br/>
 
 
