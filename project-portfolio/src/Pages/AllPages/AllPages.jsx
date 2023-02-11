@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Components/Footer'
 import Navbar from '../../Components/Navbar'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
@@ -10,28 +11,23 @@ import Skills from '../Skills/Skills'
 const AllPages = () => {
   return (
     <>
-      <div >
+      
         <Navbar/>
-        </div>
-      <div data-aos="fade-up">
+        
         <Home/>
-      </div>
-      <div data-aos="fade-up">
+     
         <About/>
-      </div>
-      <div data-aos="fade-up">
+     
         <Skills/>
-      </div>
-      <div data-aos="fade-up">
+     
         <Github/>
-      </div>
-      <div data-aos="fade-up">
+    
       <Project/>
-      </div>
-      <div data-aos="fade-up">
+    
       <Contact/>
-      </div>
-      <div data-aos="fade-up"></div>
+      
+        <Footer/>
+      
     </>
   )
 }

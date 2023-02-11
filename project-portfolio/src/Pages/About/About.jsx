@@ -4,7 +4,9 @@ import "./about.css";
 const About = () => {
   return (
     <>
-      <Box  m={{ base: "20px auto", md: " 20px auto", lg: "30px auto" }}>
+      <Box
+      name='about'  
+      m={{ base: "20px auto", md: " 20px auto", lg: "30px auto" }}>
       <Text fontSize={{ base: "20px", md: "30px", lg: "50px" }}>About Me</Text>
         <Box
           w={{ base: "90%", md: "90%", lg: "80%" }}

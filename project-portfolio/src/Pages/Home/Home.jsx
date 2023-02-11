@@ -2,12 +2,17 @@ import { Box, Button, Text, Image, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./home.css";
+import {DownloadIcon} from "@chakra-ui/icons"
 import img from "../../Data/jawed_pic.jpg";
 
 const Home = () => {
+  const goto = (url) => {
+    window.open(url, "_blank");
+  };
   return (
     <>
       <Box
+      name='home'
         bg={useColorModeValue("blue.800", "gray.700")}
         display={{ base: "grid", md: "grid", lg: "grid" }}
         gridTemplateColumns={{
@@ -52,7 +57,12 @@ const Home = () => {
               delaySpeed={1000}
             />
           </Text>
-          <Button color={useColorModeValue("","black")} bg={'white'}m={"10px"}>Resume</Button>
+          <Button color={useColorModeValue("","black")} bg={'white'}m={"10px"} 
+            onClick={() =>
+              goto(
+                "https://drive.google.com/file/d/1m5GgisAbX7FWCvIzTYzc-8tLL-hUtOYO/view?usp=sharing"
+              )
+            }>Resume <DownloadIcon _activeLink={"https://drive.google.com/drive/folders/1hScM1EAL42h5E1xwcgww2lXbZ9vklou9&export=download"}/></Button>
         </Box>
         <Box w={{ base: "100%", md: "100%", lg: "100%" }}>
           <Image

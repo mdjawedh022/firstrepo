@@ -54,13 +54,12 @@ import {
                     hasArrow>
                     <IconButton
                       aria-label="email"
-                      position={''}
                       variant="ghost"
                       size="lg"
                       fontSize="3xl"
                       icon={<MdEmail />}
                       _hover={{
-                        bg: 'blue.300',
+                        bg: 'blue.800',
                       }}
                       onClick={onCopy}
                       isRound

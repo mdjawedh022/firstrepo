@@ -29,7 +29,7 @@ const Navbar = () => {
         </Box>
       <Box gap={'20px'} display={'flex'}>
       <Box gap={'20px'} display={{base:'none',md:'none',lg:"flex"}} >
-        <Link>
+        <Link to="home" smooth={true} duration={1000}>
         <Button className='button-navbar-link'>Home</Button>
         </Link>
       <Link to="about" smooth={true} duration={1000}>

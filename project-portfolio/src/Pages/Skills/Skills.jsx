@@ -8,14 +8,16 @@ const Skills = () => {
   };
   return (
     <>
-    <Box bg={useColorModeValue("blue.800", "")} pb={"30px"}>
+    <Box
+    name="skills" 
+    bg={useColorModeValue("blue.800", "")} pb={"30px"}>
       <Box
       
         w={{ base: "90%", md: "90%", lg: "90%" }}
         m={{ base: "20px auto", md: "20px auto", lg: "50px auto" }}
       >
         <Text fontSize={{ base: "20px", md: "30px", lg: "50px" }}
-        color={useColorModeValue("white", "")}>Skills</Text>
+        color={useColorModeValue("white", "")}>My Technical Skills</Text>
 
         <Marquee
           gradient={false}

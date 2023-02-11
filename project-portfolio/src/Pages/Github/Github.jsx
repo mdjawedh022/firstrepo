@@ -26,7 +26,7 @@ const Github = () => {
      m={'auto'}
     
      id="github-stats-card"
-      src="https://github-readme-stats.vercel.app/api?username=mdjawedh022&theme=react&hide_border=false&include_all_commits=true&count_private=false"
+      src="https://github-readme-stats.vercel.app/api?username=ranjankumar9&theme=react&hide_border=false&include_all_commits=true&count_private=false"
       alt=""
     />
   </Box>

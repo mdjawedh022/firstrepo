@@ -14,9 +14,10 @@ import "./project.css";
 const Project = () => {
   return (
     <>
-      <Box>
+      <Box
+      name="project">
         <Text fontSize={{ base: "20px", md: "30px", lg: "50px" }}>
-          Projects
+        My Creative Project Section
         </Text>
         <Box
         
@@ -31,7 +32,7 @@ const Project = () => {
           gap={'20px'}
         >
           <Box
-          bg={useColorModeValue("blue.800","gray.700")}
+          bg={useColorModeValue("blue.800","blue.800")}
             boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
             p={"10px"}
             borderRadius={"10px"}
@@ -63,7 +64,7 @@ const Project = () => {
           </Box>
 {/* ------------------------------------------------------ */}
           <Box
-          bg={useColorModeValue("blue.800","gray.700")}
+          bg={useColorModeValue("blue.800","blue.800")}
             boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
             p={"10px"}
             borderRadius={"10px"}
@@ -96,7 +97,7 @@ const Project = () => {
           </Box>
 {/* ------------------- */}
           <Box
-          bg={useColorModeValue("blue.800","gray.700")}
+          bg={useColorModeValue("blue.800","blue.800")}
             boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
             p={"10px"}
             borderRadius={"10px"}
@@ -127,6 +128,37 @@ const Project = () => {
               </Box>
           </Box>
 {/* ------------------- */}
+<Box
+          bg={useColorModeValue("blue.800","blue.800")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            p={"10px"}
+            borderRadius={"10px"}
+          >
+            <Image borderRadius={"10px"} src={img} alt="pro1" />
+            <Text color={useColorModeValue("white","")}
+            fontSize={{ base: "20px", md: "20px", lg: "20px" }}>Tanishq</Text>
+            <Text color={useColorModeValue("white","")}>
+              Tanishq has emerged as India's fastest growing jewellery brand and
+              is a name which signifies superior craftsmanship, exclusive
+              designs and superlative product quality.{" "}
+            </Text>
+            <hr />
+            <Text
+            color={useColorModeValue("white","")} fontSize={{ base: "20px", md: "20px", lg: "20px" }}>
+              Tech Stack
+            </Text>
+            <Center>
+              <Box display={"flex"} alignItems={"center"} gap={"5px"} mb={'10px'}>
+                <Button >HTML</Button>
+                <Button>CSS</Button> <Button>Javascript</Button>{" "}
+              </Box> 
+            </Center>
+            <hr />
+              <Box display={"flex"} alignItems={"center"} justifyContent={'space-around'} mt={'10px'}>
+                <Button>Repo</Button>
+                <Button>Live</Button>
+              </Box>
+          </Box>
         </Box>
       </Box>
     </>
