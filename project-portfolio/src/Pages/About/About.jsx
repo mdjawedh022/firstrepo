@@ -6,11 +6,13 @@ const About = () => {
     <>
       <Box
       name='about'  
-      m={{ base: "20px auto", md: " 20px auto", lg: "30px auto" }}>
-      <Text fontSize={{ base: "20px", md: "30px", lg: "50px" }}>About Me</Text>
+    
+      // m={{ base: "20px auto", md: " 20px auto", lg: "0px auto" }}
+      pt={{base:'70px',md:"70px",lg:"100px"}}>
+      <Text fontSize={{ base: "30px", md: "30px", lg: "50px" }}>About Me</Text>
         <Box
           w={{ base: "90%", md: "90%", lg: "80%" }}
-          m={{ base: "20px auto", md: " 20px auto", lg: "30px auto" }}
+          m={{ base: "20px auto", md: " 20px auto", lg: "20px auto" }}
           display={"grid"}
           gap={"20px"}
           gridTemplateColumns={{

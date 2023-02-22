@@ -9,6 +9,7 @@ const Skills = () => {
   return (
     <>
     <Box
+    pt={{base:'55px',md:"55px",lg:"55px"}}
     name="skills" 
     bg={useColorModeValue("blue.800", "")} pb={"30px"}>
       <Box
@@ -16,7 +17,7 @@ const Skills = () => {
         w={{ base: "90%", md: "90%", lg: "90%" }}
         m={{ base: "20px auto", md: "20px auto", lg: "50px auto" }}
       >
-        <Text fontSize={{ base: "20px", md: "30px", lg: "50px" }}
+        <Text fontSize={{ base: "30px", md: "30px", lg: "50px" }}
         color={useColorModeValue("white", "")}>My Technical Skills</Text>
 
         <Marquee
@@ -34,7 +35,7 @@ const Skills = () => {
             gap={"20px"}
             cursor={"pointer"}
             // bg={useColorModeValue('white',"")}
-            m={{ base: "10px", md: "10px", lg: "10px" }}
+            m={{ base: "10px", md: "10px", lg: "19px" }}
           >
             {/* ------------html---------------- */}
             <Box
@@ -169,40 +170,7 @@ const Skills = () => {
               />
               <Text>Next.js</Text>
             </Box>
-            {/* -------------vs-------------- */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 10px"}
-              onClick={() => click("https://code.visualstudio.com/")}
-            >
-              <Image
-                width={"90%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://cdn.cdnlogo.com/logos/v/82/visual-studio-code.svg"
-                alt="vs"
-              />
-              <Text>Visual studio code</Text>
-            </Box>
-            {/* -----------------git---------- */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 20px"}
-              onClick={() => click("https://git-scm.com/")}
-            >
-              <Image
-                width={"100%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-                alt="git"
-              />
-              <Text>Git</Text>
-            </Box>
+           
             {/* --------------------mango-db----------- */}
             <Box
               bg={useColorModeValue("white", "gray.700")}
@@ -220,95 +188,164 @@ const Skills = () => {
               />
               <Text>MangoDB</Text>
             </Box>
-            {/* -------------npm------------ */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 20px"}
-              onClick={() => click("https://www.npmjs.com/")}
-            >
-              <Image
-                width={"100%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://camo.githubusercontent.com/6c10a8bff81bb32c29f35514bf2a2bcb434398b49a8a2a4b18343ae710ccd2f8/68747470733a2f2f6272616e646570732e636f6d2f6c6f676f2d646f776e6c6f61642f4e2f4e706d2d6c6f676f2d766563746f722d30312e737667"
-                alt="npm"
-              />
-              <Text>npm</Text>
-            </Box>
-
-            {/* -------------postman----------------- */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 20px"}
-              onClick={() => click("https://www.postman.com/")}
-            >
-              <Image
-                width={"100%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667"
-                alt="postman"
-              />
-              <Text>Postman</Text>
-            </Box>
-            {/* -------chakra ui----------- */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 20px"}
-              onClick={() => click("https://chakra-ui.com/")}
-            >
-              <Image
-                width={"100%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png"
-                alt="chakra ui"
-              />
-              <Text>Chakra UI</Text>
-            </Box>
-            {/* -----------------------bootstrap--------------- */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 20px"}
-              onClick={() => click("https://getbootstrap.com/")}
-            >
-              <Image
-                width={"100%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png"
-                alt="bootstrap"
-              />
-              <Text>Bootstrap</Text>
-            </Box>
-            {/* ------material ui----------- */}
-            <Box
-              bg={useColorModeValue("white", "gray.700")}
-              boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
-              borderRadius={"10px"}
-              padding={"10px 20px"}
-              onClick={() => click("https://mui.com/")}
-            >
-              <Image
-                width={"100%"}
-                height={"70%"}
-                mb={"14px"}
-                src="https://png.pngitem.com/pimgs/s/577-5779757_react-material-ui-logo-hd-png-download.png"
-                alt="material ui"
-              />
-              <Text>Material UI</Text>
-            </Box>
+           
           </Box>
         </Marquee>
+
       </Box>
+
+      <Box
+      
+      w={{ base: "90%", md: "90%", lg: "80%" }}
+      m={{ base: "20px auto", md: "20px auto", lg: "50px auto" }}
+    >
+      <Text fontSize={{ base: "30px", md: "30px", lg: "50px" }}
+      color={useColorModeValue("white", "")}>Tools</Text>
+
+      <Marquee
+        gradient={false}
+        speed={80}
+        pauseOnHover={true}
+        pauseOnClick={true}
+        delay={0}
+        play={true}
+        direction="right"
+      >
+        <Box
+          display={"flex"}
+          height={"160px"}
+          gap={"20px"}
+          cursor={"pointer"}
+          // bg={useColorModeValue('white',"")}
+          m={{ base: "10px", md: "10px", lg: "19px" }}
+        >
+         
+         
+          {/* -------------vs-------------- */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 10px"}
+            onClick={() => click("https://code.visualstudio.com/")}
+          >
+            <Image
+              width={"90%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://cdn.cdnlogo.com/logos/v/82/visual-studio-code.svg"
+              alt="vs"
+            />
+            <Text>Visual studio code</Text>
+          </Box>
+          {/* -----------------git---------- */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 20px"}
+            onClick={() => click("https://git-scm.com/")}
+          >
+            <Image
+              width={"100%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+              alt="git"
+            />
+            <Text>Git</Text>
+          </Box>
+         
+          {/* -------------npm------------ */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 20px"}
+            onClick={() => click("https://www.npmjs.com/")}
+          >
+            <Image
+              width={"100%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://camo.githubusercontent.com/6c10a8bff81bb32c29f35514bf2a2bcb434398b49a8a2a4b18343ae710ccd2f8/68747470733a2f2f6272616e646570732e636f6d2f6c6f676f2d646f776e6c6f61642f4e2f4e706d2d6c6f676f2d766563746f722d30312e737667"
+              alt="npm"
+            />
+            <Text>npm</Text>
+          </Box>
+
+          {/* -------------postman----------------- */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 20px"}
+            onClick={() => click("https://www.postman.com/")}
+          >
+            <Image
+              width={"100%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667"
+              alt="postman"
+            />
+            <Text>Postman</Text>
+          </Box>
+          {/* -------chakra ui----------- */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 20px"}
+            onClick={() => click("https://chakra-ui.com/")}
+          >
+            <Image
+              width={"100%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png"
+              alt="chakra ui"
+            />
+            <Text>Chakra UI</Text>
+          </Box>
+          {/* -----------------------bootstrap--------------- */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 20px"}
+            onClick={() => click("https://getbootstrap.com/")}
+          >
+            <Image
+              width={"100%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png"
+              alt="bootstrap"
+            />
+            <Text>Bootstrap</Text>
+          </Box>
+          {/* ------material ui----------- */}
+          <Box
+            bg={useColorModeValue("white", "gray.700")}
+            boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+            borderRadius={"10px"}
+            padding={"10px 20px"}
+            onClick={() => click("https://mui.com/")}
+          >
+            <Image
+              width={"100%"}
+              height={"70%"}
+              mb={"14px"}
+              src="https://png.pngitem.com/pimgs/s/577-5779757_react-material-ui-logo-hd-png-download.png"
+              alt="material ui"
+            />
+            <Text>Material UI</Text>
+          </Box>
+        </Box>
+      </Marquee>
+      
+    </Box>
       </Box>
     </>
   );

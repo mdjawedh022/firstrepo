@@ -7,9 +7,9 @@ const Github = () => {
   return (
     <>
   
-   <Box w={{base:'100%',md:'100%',lg:'100%'}} margin={'40px auto'}>
+   <Box  w={{base:'100%',md:'100%',lg:'100%'}} margin={'80px auto 30px auto'}>
     <Box mb={'30px'}>
-      <Text  fontSize={{base:'35px',md:'45px',lg:'50px'}} fontWeight={'500'} textAlign={'center'}
+      <Text  fontSize={{base:'30px',md:'45px',lg:'50px'}} fontWeight={'500'} textAlign={'center'}
           fontFamily={'Cambria, Cochin, Georgia, Times, Times New Roman, serif'}>Github</Text>
     </Box>
     <Box w={{base:'95%',md:'80%',lg:'80%'}} m={'auto'}>
@@ -26,7 +26,7 @@ const Github = () => {
      m={'auto'}
     
      id="github-stats-card"
-      src="https://github-readme-stats.vercel.app/api?username=ranjankumar9&theme=react&hide_border=false&include_all_commits=true&count_private=false"
+      src="https://github-readme-stats.vercel.app/api?username=mdjawedh022&theme=react&hide_border=false&include_all_commits=true&count_private=false"
       alt=""
     />
   </Box>

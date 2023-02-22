@@ -38,8 +38,11 @@ const Contact = () => {
 
   return (
     <>
-      <Box w={{ base: "100%", md: "100%", lg: "100%" }}>
-        <Text fontSize={{ base: "20px", md: "30px", lg: "50px" }}>
+      <Box name="contact"
+      pt={{base:"60px",md:"auto",lg:"auto"}}
+       w={{ base: "100%", md: "100%", lg: "100%" }}
+      m={{base:"90px auto 0 auto",md:"90px auto 0 auto",lg:"100px auto 0 auto"}}>
+        <Text fontSize={{ base: "30px", md: "30px", lg: "50px" }} mb={'15px'}>
           Get in Touch Contact me
         </Text>
         <Box
@@ -111,6 +114,7 @@ const Contact = () => {
               bg={useColorModeValue("white", "white")}
               borderRadius={"10px"}
             >
+              
               <Input
                 placeholder="Name.."
                 borderColor={"gray.800"}

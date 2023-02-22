@@ -13,6 +13,7 @@ const Home = () => {
     <>
       <Box
       name='home'
+      pt={{base:'100px',md:"70px",lg:"110px"}}
         bg={useColorModeValue("blue.800", "gray.700")}
         display={{ base: "grid", md: "grid", lg: "grid" }}
         gridTemplateColumns={{
@@ -21,7 +22,7 @@ const Home = () => {
           lg: "repeat(2,1fr)",
         }}
         w={{ base: "100%", md: "100%", lg: "100%" }}
-        mt={{ base: "16.5%", md: "9.5%", lg: "5.8%" }}
+        // mt={{ base: "16.5%", md: "9.5%", lg: "5.8%" }}
         alignItems={"center"}
       >
         <Box w={{ base: "100%", md: "100%", lg: "100%" }}>
@@ -65,13 +66,19 @@ const Home = () => {
             }>Resume <DownloadIcon _activeLink={"https://drive.google.com/drive/folders/1hScM1EAL42h5E1xwcgww2lXbZ9vklou9&export=download"}/></Button>
         </Box>
         <Box w={{ base: "100%", md: "100%", lg: "100%" }}>
-          <Image
+         <Box borderWidth={"5px"}
+          w={{ base: "90%", md: "70%", lg: "40%" }}
+          borderRadius={"50%"}
+          m={{ base: "30px auto", md: "30px auto", lg: "95px auto" }}   >
+         <Image
             src={img}
-            w={{ base: "90%", md: "70%", lg: "50%" }}
-            padding={"20px"}
+            w={'100%'}
+           cursor={'pointer'}
             borderRadius={"50%"}
-            m={{ base: "auto", md: "auto", lg: "60px auto" }}
-          />
+                 />
+         </Box>
+
+  
         </Box>
       </Box>
     </>
