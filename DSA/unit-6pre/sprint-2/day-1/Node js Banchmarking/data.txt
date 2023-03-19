@@ -1,0 +1,23 @@
+The file path represents the path of the directory executing the file. The callback function returns an error or an array of files. You can catch the error. Or loop through the files array and print them.
+
+The fs module implements both asynchronous and synchronous file handling options. As a result, you can also Node.js get all files in directory using the readdirSync() method. However, this time around, you do not include a callback function.
+
+Apart from the fs module, you can Node.js get all files in directory using the child_process module or third-party packages.
+
+This tutorial walks you through Node.js get all files in directory using the fs and child_process modules. Read on to learn more.
+
+ 
+
+Setup Lab Environment
+Let's build a directory with a directory and files. Head over to your terminal and create a directory called target_dir and cd into it.
+
+mkdir target_dir
+cd target_dir
+Create one directory and three files.
+
+mkdir child_dir
+touch file.py file1.js file2.c
+I have created a directory called child_dir and three files: file.py, file1.js, and file2.c.
+
+Advertisement
+Let's get the files now.

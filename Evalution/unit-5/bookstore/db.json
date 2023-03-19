@@ -1,0 +1,286 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "no_of_chapters": 6,
+        "author": "Xyz",
+        "cover_photo": "",
+        "book_name": "Full-Stack Webt",
+        "category": "Novel",
+        "release_year": 2019,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Stack Web Development",
+        "category": "Science_Fiction",
+        "release_year": 2020,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "no_of_chapters": 6,
+        "author": "Saurav",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Novel",
+        "release_year": 2021,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "no_of_chapters": 6,
+        "author": "Amit",
+        "cover_photo": "",
+        "book_name": "sdjfsdjft",
+        "category": "Science_Fiction",
+        "release_year": 2022,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Thriller",
+        "release_year": 2018,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Thriller",
+        "release_year": 2017,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Novel",
+        "release_year": 2016,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Science_Fiction",
+        "release_year": 2015,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Motivational",
+        "release_year": 2014,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "no_of_chapters": 6,
+        "author": "Masai",
+        "cover_photo": "",
+        "book_name": "Full-Stack Web Development",
+        "category": "Motivational",
+        "release_year": 2013,
+        "chapters": [
+          {
+            "name": "HTML",
+            "pages": 20
+          },
+          {
+            "name": "CSS",
+            "pages": 25
+          }
+        ]
+      }
+    ],
+    "lady":[
+      
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-20cm-biker-shorts-t4Ffp9/DQ6004-010",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/36178b18-12f6-4a4e-88c7-5b1c372428b6/zenvy-gentle-support-high-waisted-20cm-biker-shorts-t4Ffp9.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 20cm (approx.) Biker Shorts\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Bestseller",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 20cm (approx.) Biker Shorts",
+          "product-price": "MRP : ₹ 3 695.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj/DQ6016-440",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7ce7e3b0-46ec-45aa-9f42-cffe96781113/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 7/8 Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 7/8 Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj/DQ6016-231",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/38ec654c-60b6-443a-b978-693cdd0c58f5/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 7/8 Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 7/8 Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj/DQ6016-010",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/efce9670-e977-48bb-87e7-291fedae4e88/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 7/8 Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 7/8 Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj/DQ6016-325",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3f3c4ecc-8e7c-4c38-b4a0-08e023e760b2/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 7/8 Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 7/8 Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-full-length-leggings-5ldftH/DQ6014-254",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5e9531da-5a54-4226-a1de-c5d048c7476c/zenvy-gentle-support-high-waisted-full-length-leggings-5ldftH.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted Full-Length Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Just In",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted Full-Length Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-full-length-leggings-5ldftH/DQ6014-010",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3244573c-c327-4125-851f-2981afdad47e/zenvy-gentle-support-high-waisted-full-length-leggings-5ldftH.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted Full-Length Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Bestseller",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted Full-Length Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-cropped-leggings-7DfRdV/DQ6024-010",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ffcb8ef4-fc2f-4fa4-8d40-68f94bc1598b/zenvy-gentle-support-high-waisted-cropped-leggings-7DfRdV.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted Cropped Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted Cropped Leggings",
+          "product-price": "MRP : ₹ 5 295.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-20cm-biker-shorts-MJDwzg/DV4915-010",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4df8f295-683e-4bec-97c5-dd21f83902c6/zenvy-gentle-support-high-waisted-20cm-biker-shorts-MJDwzg.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 20cm (approx.) Biker Shorts (Plus Size)\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 20cm (approx.) Biker Shorts (Plus Size)",
+          "product-price": "MRP : ₹ 3 695.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-7-8-leggings-plJlJv/DV4911-010",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2d5e5dc2-7e12-4150-8988-bf93811ec515/zenvy-gentle-support-high-waisted-7-8-leggings-plJlJv.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 7/8 Leggings (Plus Size)\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Sustainable Materials",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 7/8 Leggings (Plus Size)",
+          "product-price": "MRP : ₹ 5 495.00"
+        },
+        {
+          "product-card__link-overlay href": "https://www.nike.com/in/t/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj/DQ6016-386",
+          "product-card__hero-image src": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e38bcc42-14d1-4d67-9445-ad1c4a7c20ed/zenvy-gentle-support-high-waisted-7-8-leggings-m78Wdj.png",
+          "wall-image-loader": "<img alt=\"Nike Zenvy Women&#x27;s Gentle-Support High-Waisted 7/8 Leggings\" class=\"product-card__hero-image css-1fxh5tw\" height=\"400\" loading=\"lazy\" width=\"400\"/>",
+          "product-card__messaging": "Just In",
+          "product-card__subtitle": "Women's Gentle-Support High-Waisted 7/8 Leggings",
+          "product-price": "MRP : ₹ 5 495.00"
+        }
+      ]
+    
+  }

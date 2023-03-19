@@ -1,0 +1,33 @@
+{
+    "movies": [
+        {
+            "movie_id": 1,
+            "name": "RRR",
+            "genre": "log",
+            "director": "Amit"
+        }
+    ],
+    "series": [
+        {
+            "series_id": 2,
+            "name": "jsn",
+            "genre": "lsd",
+            "director": "Raj"
+        },
+        {
+            "series_id": 3,
+            "name": "jsn",
+            "genre": "lsd",
+            "director": "Raj"
+        },
+        {
+            "series_id": 4,
+            "name": "jsn",
+            "genre": "lsd",
+            "director": "Raj"
+        },
+        {
+            "name": "Ram"
+        }
+    ]
+}

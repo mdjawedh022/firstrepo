@@ -1,0 +1,70 @@
+                                                    Problem - II Mongo CRUD 
+                                
+
+1)Create a db named "graduates".
+
+result- create dbs "graduates"
+
+2) Create a collection named "users".
+
+result- db.createCollection("users")
+
+3)Insert the above data in the collection.
+
+result-> db.users.insertMany([{
+ "first_name": "Ida",
+ "last_name": "Hammerman",
+ "percentage": 41,
+ "gender": "Female",
+ "university": "Fordham University",
+ "isMarried": false
+}, {
+ "first_name": "Phyllida",
+ "last_name": "Gauntlett",
+ "percentage": 73,
+ "gender": "Non-binary",
+ "university": "Medical Academy in Bialystok",
+ "isMarried": false
+}, {
+ "first_name": "Gilemette",
+ "last_name": "Balshen",
+ "percentage": 34,
+ "gender": "Female",
+ "university": "Universidad Rey Juan Carlos",
+ "isMarried": false
+}, {
+ "first_name": "Pebrook",
+ "last_name": "Currum",
+ "percentage": 82,
+ "gender": "Male",
+ "university": "Universidade Cruzeiro do Sul",
+ "isMarried": false
+}, {
+ "first_name": "Sidney",
+ "last_name": "Corbert",
+ "percentage": 82,
+ "gender": "Male",
+ "university": "Hogeschool voor Wetenschap en Kunst (VLEKHO), Brussel",
+ "isMarried": false
+}])
+
+4)Show the data of "Male" users who are "Single".
+
+result-> db.users.find({gender:'Male',isMarried:false})
+
+5)Show the data of all the "Female" users who scored more that 60 percent.
+
+result->db.users.find({gender:'Male',percentage: {$gt: 60}})
+
+6) Show the data of all the users who scored more than or equal to 40 percent.
+result->db.users.find({percentage: {$gte: 40}})
+
+7) Update the data of all the "Female" users and add a field "scholarship":true.
+
+result-> db.users.updateMany(
+   { gender: "Female" },
+   { $set: { scholarship: true } }
+)
+
+8)Delete the data of all the users who scored less than 60 percent.
+result->db.users.remove({percentage: {$lt: 60}})

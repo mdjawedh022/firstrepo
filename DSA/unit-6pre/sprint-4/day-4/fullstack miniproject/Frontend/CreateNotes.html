@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    #container{
+        display: grid;
+        gap: 10px;
+        width: 30%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    input,button{
+        padding: 10px;
+    }
+</style>
+<body>
+    
+    <div id="container">
+        <h1>Create Notes Form</h1>
+        <input type="text" id="title", placeholder="Enter note Title...">
+        <input type="text" id="note", placeholder="Enter note body...">
+        <input type="text" id="author" placeholder="Enter notes author..">
+        <button onclick="ADD()">ADD</button>
+    </div>
+</body>
+</html>
+<script>
+    const ADD = () => {
+        const payload = {
+            title: document.getElementById("title").value,
+            note:document.getElementById("note").value
+        }
+        fetch("http://localhost:8080/notes/create",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json",
+                "Authorization":localStorage.getItem("token")
+            },
+            body: JSON.stringify(payload)
+        }).then(res => res.json())
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err))
+    }
+</script>

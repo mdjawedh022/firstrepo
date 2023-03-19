@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Signup.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Sign up</h1>
+        <div class="signup">
+            <input type="text" id="name" placeholder="Enter Name here">
+            <input type="text" id="email" placeholder="Enter  Email here">
+            <input type="password" id="pass" placeholder="Enter password here">
+            <button onclick="Signup()">Sign Up</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    const Signup = () => {
+        const payload = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            pass:document.getElementById("pass").value
+        }
+        fetch("http://localhost:8080/users/register",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(payload)
+        }).then(res => res.json())
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err))
+    }
+</script>

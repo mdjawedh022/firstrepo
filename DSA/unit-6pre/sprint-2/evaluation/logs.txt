@@ -1,0 +1,84 @@
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /movies, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series/:id, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series/:id, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series/:id, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series/:1, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series/:1, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: GET, | Route: /series/:id, | user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Method: POST, | Route: /movies/addmovie, | user-agent: PostmanRuntime/7.30.1
+Method:POST | Route:/addseries | user-agent:PostmanRuntime/7.30.1 | Response Time:260
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:19
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:38
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:17
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:2
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:89
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:86
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:27
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:19
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:20
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:2
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:33
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:30
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:14
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:6
+Method:PATCH | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:37
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:22
+Method:DELETE | Route:/:id?5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:32
+Method:PATCH | Route:/:id?5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:17
+Method:PATCH | Route:/:id?5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:11
+Method:DELETE | Route:/:id?5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:21
+Method:DELETE | Route:/:id?5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:31
+Method:DELETE | Route:/:id?password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:18
+Method:DELETE | Route:/:id?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:7
+Method:DELETE | Route:/:id?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:DELETE | Route:/:id?role=%22admin%22&password=%225567%22 | user-agent:PostmanRuntime/7.30.1 | Response Time:1
+Method:DELETE | Route:/:id?role=%22admin%22&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:6
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:20
+Method:DELETE | Route:/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:7
+Method:DELETE | Route:/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:21
+Method:DELETE | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:326
+Method:DELETE | Route:/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:52
+Method:DELETE | Route:/:1 | user-agent:PostmanRuntime/7.30.1 | Response Time:65
+Method:PATCH | Route:/series/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:3
+Method:PATCH | Route:/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:102
+Method:DELETE | Route:/:2&role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:37
+Method:DELETE | Route:/:2&role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:10
+Method:DELETE | Route:/:2&role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:2
+Method:DELETE | Route:/:2?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:14
+Method:DELETE | Route:/ | user-agent:PostmanRuntime/7.30.1 | Response Time:65
+Method:GET | Route:/ | user-agent:PostmanRuntime/7.30.1 | Response Time:24
+Method:GET | Route:/:id | user-agent:PostmanRuntime/7.30.1 | Response Time:5
+Method:GET | Route:/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:3
+Method:GET | Route:/:2 | user-agent:PostmanRuntime/7.30.1 | Response Time:3
+Method:POST | Route:/addmovies | user-agent:PostmanRuntime/7.30.1 | Response Time:6
+Method:POST | Route:/addmovie | user-agent:PostmanRuntime/7.30.1 | Response Time:8
+Method:POST | Route:/addseries | user-agent:PostmanRuntime/7.30.1 | Response Time:49
+Method:PATCH | Route:/:2?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:62
+Method:DELETE | Route:/:2?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:104
+Method:DELETE | Route:/:3?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:51
+Method:DELETE | Route:/:3?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:191
+Method:DELETE | Route:/:1?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:47
+Method:PATCH | Route:/:1?role=admin&password=5567 | user-agent:PostmanRuntime/7.30.1 | Response Time:47

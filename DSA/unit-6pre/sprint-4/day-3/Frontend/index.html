@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    #parent>div{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #note{
+        text-align: center;
+        margin-top: 50px;
+    }
+</style>
+<body>
+    <nav></nav>
+    <div id="note">
+        <h1>Notes</h1>
+    </div>
+    <div id="parent"></div>
+</body>
+
+</html>
+<script>
+    const getData = () => {
+        fetch("https://tan-sparkling-crab.cyclic.app/notes/", {
+            headers: {
+                "Authorization": localStorage.getItem("token")
+            },
+        }).then(res => res.json())
+            .then((res) => {
+                console.log(res)
+                const data = res.notes
+                append(data)
+            })
+            .catch((err) => console.log(err))
+    }
+    getData()
+
+    const append = (data) => {
+        let parent = document.getElementById('parent')
+        parent.innerHTML = null;
+
+        data.forEach((el) => {
+            let div = document.createElement("div");
+
+            let img = document.createElement('img');
+            img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMN-CYScxUgY3HKH7F_oekGfGLFV0eGe2JEg&usqp=CAU"
+
+            let title = document.createElement('h2')
+            title.textContent = el.title;
+
+            let note = document.createElement('p')
+            note.textContent = el.note;
+
+            let author = document.createElement("p");
+            author.textContent = el.author;
+
+            div.append(img,title,note,author,)
+            parent.append(div)
+        });
+    }
+
+</script>
+<script src="./Nav.js"></script>

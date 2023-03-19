@@ -1,0 +1,27 @@
+{
+    "students": [
+        {
+            "name": "Chunnu",
+            "city": "Pune",
+            "age": 21
+        },
+        {
+            "name": "Munnu",
+            "city": "Delhi",
+            "age": 20
+        }
+    ],
+    "teachers": [
+        {
+            "name": "Albert",
+            "sub": "Coding",
+            "age": 22
+        },
+        {
+            "name": "Ankush",
+            "sub": "DSA",
+            "age": 23
+        }
+       
+    ]
+}

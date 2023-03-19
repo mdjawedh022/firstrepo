@@ -104,7 +104,7 @@ const SignUp = () => {
             >
               <Text>
                 Already have an account?{" "}
-                <Link to="./login" style={{ color: "skyblue" }}>
+                <Link to="/login" style={{ color: "skyblue" }}>
                   Sign in
                 </Link>
               </Text>

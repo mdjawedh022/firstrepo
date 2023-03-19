@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    display: grid;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.log1{
+    display: grid;
+    gap:20px;
+    margin-top: 50px;
+}
+input,button{
+    padding: 10px;
+}

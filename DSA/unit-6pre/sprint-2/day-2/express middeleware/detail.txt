@@ -1,0 +1,13 @@
+Route Visited: / | Method: GET | RespondTime: undefined
+Route Visited: /data | Method: GET | RespondTime: undefined
+Route Visited: /ws | Method: GET | RespondTime: undefined
+Route Visited: / | Method: GET | RespondTime: undefined
+Route Visited: /abou[t | Method: GET | RespondTime: undefined
+Route Visited: /about | Method: GET | RespondTime: undefined
+Route Visited: /ws | Method: GET | RespondTime: undefined
+Route Visited: /about | Method: GET | RespondTime: 27ms
+Route Visited: /ws | Method: GET | RespondTime: 4ms
+Route Visited: /ws | Method: GET | RespondTime: 0ms
+Route Visited: /ws | Method: GET | RespondTime: 2ms
+Route Visited: /static/js/bundle.js | Method: GET | RespondTime: 6ms
+Route Visited: /manifest.json | Method: GET | RespondTime: 0ms
