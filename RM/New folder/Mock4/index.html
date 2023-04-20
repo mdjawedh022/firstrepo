@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div id="navbar" class="Jyoti">
+      <div id="logo">
+        <a href="index.html"><h2>Home Page</h2></a>
+      </div>
+      <div><a href="admin.html">Admin DashBoard</a></div>
+      <div><a href="hotel.html">Hotels Page</a></div>
+    </div>
+    <div class="main_form">
+      <div id="form_con">
+        <form id="loginform">
+          <input id="email" type="email" placeholder="Enter email" required />
+         <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            required
+          />
+         <input type="submit" value="Login" />
+        </form>
+      </div>
+      <div id="form_con">
+        <form id="registerform">
+          <input id="username" type="text" placeholder="username" required />
+
+          <input id="remail" type="email" placeholder="Enter email" required />
+
+          <input
+            type="password"
+            id="pass"
+            placeholder="Enter Password"
+            required
+          />
+          <input
+            type="password"
+            id="repeatpass"
+            placeholder="Repeat Password"
+            required
+          />
+          <input type="submit" value="Register" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/index.js"></script>

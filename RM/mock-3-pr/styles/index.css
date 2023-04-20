@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#container{
+    width: 95%;
+    margin:10px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 15px;
+}
+#container #image{
+    width: 100%;
+    background-size: cover;
+    height:56%;
+    border-radius: 5px 5px 0 0                          ;
+
+}
+#items{
+    padding: 5px;
+    border-radius: 5px;
+    font-family:cursive;
+    height:auto;
+    box-shadow: rgba(209, 123, 228, 0.25) 0px 30px 60px -12px inset, rgba(54, 108, 187, 0.3) 0px 18px 36px -18px inset;
+}
+#name{
+    font-size: 45px;
+    text-align: center;
+
+}
+#desc{
+    text-align: justify;
+    padding: 5px 20px;
+}
+#origin,#life{
+    padding: 5px 20px;
+    text-align: justify;
+}
+#temp{
+    padding: 5px 20px;
+    text-align: justify;
+}
+.wikipedia{
+    text-align:left;
+    margin: 5px 20px;
+    padding: 0 3px;
+    color: red;
+    background-color: rgb(244, 214, 214);
+}
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(20, 119, 185);
+    border: none;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    margin: 15px 15px 0px 15px;
+}
+#pagination{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    margin:15px auto;
+    padding: auto;
+    /* border:1px solid red */
+}
+#paginationbtn{
+    padding: 5px 15px;
+    text-align:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    
+}

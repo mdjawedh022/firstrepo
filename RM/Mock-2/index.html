@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/index.css" />
+  </head>
+
+  <body>
+    <nav></nav>
+    <div id="container">
+      <p>Leave Request Form</p>
+      <form>
+        <div>
+          <p>Unique Id :</p>
+          <input type="number" id="uniqueid" placeholder="Unique Id" />
+        </div>
+        <div>
+          <p>Name :</p>
+          <input type="text" id="name" placeholder="Name" />
+        </div>
+        <div>
+          <textarea
+            name=""
+            id="reason"
+            cols="50"
+            rows="5"
+            placeholder="Reason For Leave..."
+          ></textarea>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="employee"
+            name="designation"
+            value="employee"
+          />
+          <span>Employee</span>
+        </div>
+        <div>
+          <input type="radio" id="student" name="designation" value="student" />
+          <span>Student</span>
+        </div>
+        <div>
+          <p>Leave Start date :</p>
+          <input
+            type="date"
+            id="start_date"
+            name="start_date"
+            value="start_date"
+          />
+        </div>
+        <div>
+          <p>Leave Start date :</p>
+          <input
+            type="date"
+            id="end_date"
+            name="end_date"
+            value="end_date"
+            placeholder=""
+          />
+        </div>
+        <select id="overseer">
+          <option value="">Overseer</option>
+          <option value="ec">EC</option>
+          <option value="hr">HR</option>
+          <option value="manager">Manager</option>
+        </select>
+        <button id="submit" type="submit" value="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="./Js/Navbar.js"></script>
+<script src="./Js/index.js"></script>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <input type="text" placeholder="customer name" id="name"/>
+            <select name="" id="type">
+                <option value="Americano">Americano</option>
+                <option value="Expresso">Expresso</option>
+                <option value="Cappuccino">Cappuccino</option>
+            </select>
+            <select name="" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <input type="number" placeholder="quantity" id="quantity" />
+            <button>Order</button>
+        </form>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>

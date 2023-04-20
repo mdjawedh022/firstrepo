@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasboard</title>
+    <link rel="stylesheet" href="./styles/dasboard.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="./index.html">Leave Request</a>
+        <a href="./dasboard.html">Dashboard</a>
+        <a href="./status.html">Status</a>
+      </div>
+    <div id="dasboard-section">
+  <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Em/Stud</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Overseer</th>
+            <th>OTP</th>
+            <th>Leave</th>
+            <th>Granted</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- ==========append=data================= -->
+    </tbody>
+  </table>
+    </div>
+    <div class="modal">
+      <div class="modal-content">
+        <h3>Team Details</h3>
+        
+        <p><b>Name:</b> <span id="team-name"></span></p>
+        <p><b>Description:</b> <span id="team-abbreviation"></span></p>
+        <p><b>Start Date:</b> <span id="team-conference"></span></p>
+        <p><b>End Date:</b> <span id="team-division"></span></p>
+        <p><b>Overseer:</b> <span id="team-city"></span></p>
+        <p><b>OTP:</b> <span id="otp"><input id="one"/> </span></p>
+        <button id="close-modal">Verify OTP</button>
+      </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/dasboard.js">
+ 
+
+</script>

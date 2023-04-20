@@ -1,0 +1,82 @@
+
+#searchbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+#search{
+  width: 400px;
+  padding: 10px;
+  border-radius: 50px;
+}
+table {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+}
+
+table tr,
+table th {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 8px;
+  text-align: center;
+}
+table th {
+  background-color: rgb(255, 200, 0);
+}
+table tr:hover {
+  background-color: wheat;
+}
+#accept {
+    display: inline;
+    margin: 20px auto;
+    /* margin-left: 100px; */
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  #reject {
+    display: inline;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(200, 32, 32);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  text-align: center;
+}
+#close{
+    width: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: red;
+}
+

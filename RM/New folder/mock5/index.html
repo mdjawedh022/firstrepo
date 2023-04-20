@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      /* All CSS For Home Page Goes Here  */
+      .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      #product-container{
+        display: flex;
+      }
+      #product-container>div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav">
+      <h1>Web E-Commerce</h1>
+      <a href="./index.html">Home</a>
+      <a href="./cart.html">Cart</a>
+    </div>
+    <h1 id="alert"></h1>
+    <main>
+      <div id="filter">
+        <div id="brand-filter">
+          <h2>Filter By Brands</h2>
+          <div>
+            <input type="checkbox" id="roadster" />
+            <p>Roadster</p>
+          </div>
+          <div>
+            <input type="checkbox" id="blackberrys" />
+            <p>Blackberrys</p>
+          </div>
+          <div>
+            <input type="checkbox" id="van-heusen" />
+            <p>Van Heusen</p>
+          </div>
+          <div>
+            <input type="checkbox" id="allen-solly" />
+            <p>Allen Solly</p>
+          </div>
+          <div>
+            <input type="checkbox" id="twills" />
+            <p>Twills</p>
+          </div>
+        </div>
+        <div id="category-filter">
+          <h2>Filter By Categories</h2>
+          <div>
+            <input type="checkbox" id="men" />
+            <p>Men</p>
+          </div>
+          <div>
+            <input type="checkbox" id="women" />
+            <p>Women</p>
+          </div>
+          <div>
+            <input type="checkbox" id="homedecor" />
+            <p>Homedecor</p>
+          </div>
+          <div>
+            <input type="checkbox" id="kids" />
+            <p>Kids</p>
+          </div>
+        </div>
+      </div>
+      <div id="product-container">
+        <div id="con">
+          <!-- Here Append All the Products  -->
+        </div>
+      </div>
+    </main>
+  </body>
+  <script type="module">
+    // All Your Script for Home Page Goes Here
+    let con=document.querySelector('#con')
+    const fetchData=async()=>{
+      let res=await fetch(`https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-products`)
+      let data=await res.json()
+      data=data.data
+      console.log(data)
+      renderDom(data)
+    }
+       const renderDom=(data)=>{
+        con.innerHTML=null
+        data.forEach((el)=>{
+          let card=document.createElement('div')
+          let image=document.createElement('img')
+          let title=document.createElement('h3')
+          let brand=document.createElement('p')
+          let category=document.createElement('p')
+          let price=document.createElement('p')
+          let Add=document.createElement('button')
+          Add.textContent="Add To cart"
+          Add.addEventListener('click',()=>{
+            AddtoCart(el)
+          })
+          image.setAttribute('class','proimg')
+          image.src=el.image
+          title.textContent=el.title
+          brand.textContent=el.brand
+          category.textContent=el.category
+          price.textContent=el.price
+          card.append(image,title,brand,category,price,Add)
+          con.append(card)
+        })
+       }
+
+      //  Add to Cart
+      let carts=JSON.parse(localStorage.getItem('cart'))||[]
+      const AddtoCart=(el)=>{
+        let flag=false
+        for(let i=0;i<carts.length;i++){
+          if(carts[i] === el.id){
+            flag=true
+          }
+        }
+        if(flag){
+          document.querySelector('#alert').textContent="Product already in the cart"
+       }else{
+          carts.push(el.id)
+          localStorage.setItem('cart',JSON.stringify(carts))
+          document.querySelector('#alert').textContent="Product added to The cart"
+        }
+      }
+
+    fetchData()
+  </script>
+</html>
+
+<!-- "id": 1,
+"brand": "roadster",
+"title": "cotton Checked Casual Shirt",
+"image": "https://picsum.photos/200",
+"category": "men",
+"price": 844 -->

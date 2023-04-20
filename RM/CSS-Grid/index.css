@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#navbar_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+
+}
+#navbar_section>h1{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar_section a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar_section>div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* ----------------------------------- */
+
+.banner-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,700px);
+}
+.banner-section>div:nth-child(1){
+    background-image: url("https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGQlMjBwaG90b3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-section>div:nth-child(2){
+    background-size: cover;
+    background-color: rgb(243, 239, 225);
+    background-repeat: no-repeat;
+}
+#banner-section-text{
+    border:1px solid red;
+    width: 80%;
+    margin:35% auto 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#banner-section-text>span{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#banner-section-text>h1{
+    font-weight:100
+
+}
+/* @media all and (min-width: 320px) and (max-width: 767px){} */

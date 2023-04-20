@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <style>
+      /* All Your css for Cart page goes here  */
+      #cart-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        margin: auto;
+      }
+      #cart-container{
+        align-items: center;
+        text-align: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Web E-Commerce</h1>
+      <a href="./index.html">Home</a>
+      <a href="./cart.html">Cart</a>
+    </div>
+    <h1 id="total">
+      Your total order value is :- <span id="cart-total">0</span>
+    </h1>
+    <div id="cart-container">
+      <!-- Here Append All the Cart Cards here-->
+      
+    </div>
+  </body>
+  <script type="module">
+    let con=document.querySelector('#cart-container')
+    let carts=JSON.parse(localStorage.getItem('cart')) || []
+
+    for(let i=0;i<carts.length;i++){
+      fetchCart(carts[i])
+    }
+    async function fetchCart(id){
+      let res=await fetch(`https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-products/${id}`)
+      let data=await res.json()
+      data=data.data
+      renderCart(data)
+    }
+    var t=0
+    const renderCart=(data)=>{
+      // con.innerHTML=null
+      
+      t+=data.price
+      let card=document.createElement('div')
+      console.log("got in",data)
+      let image=document.createElement('img')
+      image.src=data.image
+
+      let title=document.createElement('h3')
+      title.innerText=data.title
+
+      let brand=document.createElement('p')
+      brand.innerText=data.brand
+
+      let cat=document.createElement('p')
+      cat.innerText=data.category
+
+      let pri=document.createElement('p')
+      pri.innerText=data.price 
+
+      let total=document.querySelector("#cart-total").textContent=t
+      card.append(image,title,brand,cat,pri)
+      con.append(card)
+      
+    }
+  </script>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Hotel Page</title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+          <a href="index.html"><h2>Hotel Page</h2></a>
+        </div>
+        
+      </div>
+      <div id="sorting_sec">
+        <select id="filcate">
+            <option value="">Filter By Category</option>
+            <option value="Family">Family</option>
+            <option value="Deluxe">Deluxe</option>
+            <option value="Duite">Suite</option>
+            
+        </select>
+        <select id="sort_by_cost">
+          <option value="">Select Order</option>
+          <option value="LowtoHigh">Ascending</option>
+          <option value="HightoLow">Descending</option>
+        </select>
+    </div>
+      <div class="hotel_con"></div>
+      <div class="pagination">
+        <button id="prev">PREV</button>
+        <button id="current">1</button>
+        <button id="next">NEXT</button>
+      </div>
+</body>
+</html>
+<script src="./scripts/hotel.js"></script>
+
+<!-- - Family
+- Deluxe
+- Suite -->

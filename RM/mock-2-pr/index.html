@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mock-2-pr</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <!-- ================navbar=========== -->
+    <div id="navbar">
+      <a href="./index.html">Leave Request</a>
+      <a href="./dasboard.html">Dashboard</a>
+      <a href="./status.html">Status</a>
+    </div>
+    <!-- ======================form============ -->
+    <div id="form-section">
+      <h1>Leave Form</h1>
+      <form action="">
+        <!-- ---------------id------------- -->
+        <label id="label">Id</label>
+        <input type="number" id="id" placeholder="enter id.." required/>
+        <!-- ------------------name------------------ -->
+        <label id="label">Name</label>
+        <!-- maxlength=4 -->
+        <input type="text" id="name" placeholder="enter your name.." required/>
+        <!-- ---------------description------------ -->
+        <label id="label">Description</label>
+        <textarea
+          id="description"
+          placeholder="Description"
+          cols="30"
+          rows="5"
+          required
+        ></textarea>
+        <!-- -----------------radio---------------- -->
+        <div class="radio">
+          <label id="label-em">Employee</label>
+          <input type="radio" name="radio" value="employee" id="employee" required/>
+        </div>
+        <div class="radio">
+          <label id="label-em">Student</label>
+          <input type="radio" name="radio" value="student" id="student" required/>
+        </div>
+        <!-- ----------------------leave-start----------------------->
+        <label id="label">Leave Start Date</label>
+        <input type="date" placeholder="" id="leavestart" required/>
+        <!-- ---------------------------leave-end-------------------->
+        <label id="label">Leave End Date</label>
+        <input type="date" placeholder="" id="leaveend" required/>
+        <!----------------Overseer:  (EC / HR / Manger)------------------- -->
+        <label id="label">Overseer</label>
+        <select name="" id="overseer" required>
+          <option value="">Overseer</option>
+          <option value="EC">EC</option>
+          <option value="HR">HR</option>
+          <option value="Manger">Manger</option>
+        </select>
+        <!------------------------button--------------------------------->
+        <button type="submit" id="button">Apply</button>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="./scripts/index.js"></script>

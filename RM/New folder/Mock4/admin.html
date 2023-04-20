@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./CSS/admin.css">
+</head>
+
+<body>
+   
+    <h1 id="oyo">Mini OYO</h1>
+    <div id="container">
+        <form id="form">
+            <select id="category" required>
+                <option id="">Select Category</option>
+                <option id="family">Family</option>
+                <option id="deluxe">Deluxe</option>
+                <option id="suite">Suite</option>
+            </select>
+          <input id="image" type="text" placeholder="Image Url" required/>
+            <div>
+                <label>Type of Room</label>
+                <div> <input id="en" type="radio"
+                        name="room" value="ac" />
+                    <p >AC</p>
+                </div>
+                <div ><input id="en" type="radio" name="room"
+                        value="nonac" />
+                    <p >Non AC</p>
+                </div>
+                <div>
+                    <select id="bed">
+                        <option id="">Bed Type</option>
+                        <option id="single">Single</option>
+                        <option id="double">Double</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Number of Adults</label>
+                    <input id="adults" type="Number" placeholder="Number of Adults" required/>
+                </div>
+                <div>
+                    <label for="">Max Capicity</label>
+                    <input id="capacity" type="Number" placeholder="Max capacity" required />
+                </div>
+                <div>
+                    <label for="">Cost Per Night</label>
+                    <input id="cost" type="Number" placeholder="Cost Per Night in Rs" required/>
+                </div>
+
+                <input value="Submit" type="submit" />
+        </form>
+       </div>
+    <div>
+    <table>
+        <thead>
+          <tr>
+            <th >ID</th>
+            <th >Category</th>
+            <th >Room Image</th>
+            <th >Type Of Room</th>
+            <th >Bed Type</th>
+            <th >No Of Persons</th>
+            <th >Capacity</th>
+            <th >Cost </th>
+            <th >Status</th>
+            
+            <th >Delete </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+      <div class="modal">
+        <div class="modal-content">
+          <div><span id="close">&times;</span></div>
+          <form id="form">
+            <select id="category">
+                <option id="">Select Category</option>
+                <option id="family">Family</option>
+                <option id="deluxe">Deluxe</option>
+                <option id="suite">Suite</option>
+            </select>
+
+            <input id="image" type="text" placeholder="Image Url" />
+            <div>
+                <label>Type of Room</label>
+                <div> <input  id="en" type="radio"
+                        name="room" value="ac" />
+                    <p >AC</p>
+                </div>
+                <div ><input  id="en" type="radio" name="room"
+                        value="nonac" />
+                    <p >Non AC</p>
+                </div>
+                <div>
+                    <select id="bed">
+                        <option id="">Bed Type</option>
+                        <option id="single">Single</option>
+                        <option id="double">Double</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Number of Adults</label>
+                    <input id="adults" type="Number" placeholder="Number of Adults" />
+                </div>
+                <div>
+                    <label for="">Max Capicity</label>
+                    <input id="capacity" type="Number" placeholder="Max capacity" />
+                </div>
+                <div>
+                    <label for="">Cost Per Night</label>
+                    <input id="cost" type="Number" placeholder="Cost Per Night in Rs" />
+                </div>
+
+                <input value="Submit" type="submit" />
+        </form>
+        </div>
+      </div>
+</body>
+
+</html>
+
+<script src="./scripts/admin.js"></script>
