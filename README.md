@@ -40,7 +40,8 @@ Aspiring full-stack web development professional, adept at user-specific solutio
              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jawedhilmand022@gmail.com"><img src="https://camo.githubusercontent.com/571384769c09e0c66b45e39b5be70f68f552db3e2b2311bc2064f0d4a9f5983b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d4431343833363f7374796c653d666f722d7468652d6261646765266c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465" alt=""></a>
              <a href=""><img src="" alt=""></a>
 </div>
- 
+ <p align="center"> <img src="https://komarev.com/ghpvc/?username=mdjawedh022&label=Profile%20views&color=0e75b6&style=flat" alt="mdjawedh022" /> </p>
+
  ## My Github status:
 <img src="https://github-readme-stats.vercel.app/api?username=mdjawedh022&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515"/>
 
